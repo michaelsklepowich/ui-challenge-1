@@ -1,0 +1,137 @@
+
+/* MOBILE LAYOUT */
+
+@media only screen and (max-width: 800px) {
+  main * {
+    width: 480px;
+    margin: 0 auto;
+  }
+  h1:after{
+    content: "mobile: 480px - 768px";
+    font-size: 0.8em;
+    font-weight: normal;
+  }
+  #excluding-h1 {
+    background-color: lightgrey;
+    outline-color: grey;
+    outline-style: solid;
+  }
+  #a-element {
+    width: 100%;
+    text-align: inherit;
+    height: 75px;
+  }
+  #b-element {
+    width: 100%;
+    text-align: left;
+    height: 150px;
+
+  }
+  #list-of-two {
+    padding: 0;
+    width: 100%;
+    display: block;
+    list-style-type: none;
+    margin: 0px auto;
+  }
+  #c-element {
+    margin: 0px auto;
+    width: 100%;
+    height: 125px;
+  }
+  #d-element {
+    text-decoration: none;
+    width: 100%;
+    height: 125px;
+  }
+  #list-of-four {
+    padding: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0px auto;
+  }
+  #list-of-four li {
+    float: left;
+    width: 50%;
+    height: 250px;
+  }
+  #test {
+    clear: both;
+  }
+  #i-element {
+    width: 100%;
+    text-align: left;
+    height: 80px;
+  }
+}
+
+/* DESKTOP LAYOUT */
+
+@media only screen and (min-width: 800px) {
+  body {
+    background-color: white;
+  }
+  main * {
+    width: 960px;
+    margin: 0 auto;
+  }
+  h1:after{
+    content: "desktop: 768px - 960px";
+    font-size: 0.8em;
+    font-weight: normal;
+  }
+  #excluding-h1 {
+    background-color: lightgrey;
+    outline-color: grey;
+    outline-style: solid;
+    outline-width: thin;
+  }
+  #a-element {
+    width: 100%;
+    text-align: inherit;
+    height: 100px;
+  }
+  #b-element {
+    background-color: lightgrey;
+    float: left;
+    width: 200px;
+    text-align: left;
+    height: 600px;
+  }
+  #list-of-two {
+    padding: 0;
+    width: auto;
+    list-style-type: none;
+    margin: 0px auto;
+  }
+  #list-of-two li {
+    background-color: lightgrey;
+    float: left;
+    width: 380px;
+    height: 200px;
+    margin: 0px auto;
+  }
+  #list-of-four {
+    display: inline;
+    padding: 0;
+    list-style-type: none;
+    margin: 0px auto;
+  }
+  #list-of-four li {
+    background-color: lightgrey;
+    float: left;
+    width: 190px;
+    height: 250px;
+  }
+
+
+  #i-element {
+    background-color: lightgrey;
+    float: left;
+    margin: 0px auto;
+    width: 760px;
+    text-align: left;
+    height: 150px;
+    margin-bottom: 1px;
+  }
+}

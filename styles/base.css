@@ -1,0 +1,13 @@
+body {
+  min-width: 520px;
+  color: grey;
+  font-family: sans-serif;
+}
+
+#excluding-h1 * {
+  width: 480px;
+  margin: 0 auto;
+  outline-width: thin;
+  outline-color: grey;
+  outline-style: solid;
+}
